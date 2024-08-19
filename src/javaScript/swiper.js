@@ -1,4 +1,4 @@
-fetch('../slides/slides.html')
+fetch('../../src/slides/slides.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('slides-container').innerHTML = data;
@@ -24,6 +24,7 @@ fetch('../slides/slides.html')
         1000: {
           slidesPerView: 4,
           spaceBetween: 15,
+          loop: false,
         },
       },
     });
