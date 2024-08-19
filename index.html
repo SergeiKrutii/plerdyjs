@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/modal.css" />
+    <link rel="stylesheet" href="./src/styles/dropDown.css" />
+    <link rel="stylesheet" href="./src/styles/intltel.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.2/build/css/intlTelInput.css"
+    />
+  </head>
+  <header class="header">
+    <nav class="header__navigation">
+      <a href="/">
+        <span class="css-sprite-mainLogo" aria-label="Company Name Logo" />
+      </a>
+      <div class="header__dropdown" dropdown>
+        <ul class="header__menu">
+          <li class="header__menu__item">
+            <a href="/">Pricing</a>
+          </li>
+          <li class="header__menu__item">
+            <a href="/">Use Cases</a>
+          </li>
+          <li class="header__menu__item">
+            <a href="/">Book a Demo</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="header__contact__list">
+        <li class="header__contact__item"><a href="/">Sing In</a></li>
+        <li class="header__contact__item">
+          <button
+            class="infopage__button header__contact__button"
+            type="button"
+            data-modal-open
+          >
+            Contact sales
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <button
+      type="button"
+      class="header__navButton"
+      nav-button
+      aria-label="Open navigation"
+    >
+      <svg class="icon icon-dropmenu" width="22px" height="10px">
+        <use href="./src/images/svg_sprite.svg#icon-dropmenu"></use>
+      </svg>
+    </button>
+  </header>
+  <body>
+    <main>
+      <section class="section infopage">
+        <div class="container">
+          <div class="infopage__wrapper">
+            <div class="infopage__hero">
+              <h1 class="infopage__title">
+                How to do a Website Audit to Improve SEO & Conversions
+              </h1>
+              <p class="infopage__text">
+                Usability auditing with the Plerdy tool is a comprehensive
+                expert assessment of your website based on a profound study of
+                user behavior registered on it. Plerdy will provide you with
+                crucial data based on which you will be able to run an efficient
+                usability audit of your website, identify and fix SEO issues,
+                and subsequently lead it to higher positions in search.
+              </p>
+              <p class="infopage__text infopage__text--color">
+                Thus, you'll compile a list of flaws in your website interface,
+                navigation, and conversion path that can eventually affect its
+                micro and macro conversion rates.
+              </p>
+              <button class="infopage__button" id="open-modal" data-modal-open>
+                Run the Plerdy tool
+              </button>
+            </div>
+            <div class="infopage__partners">
+              <h2 class="infopage__partners__tittle">
+                Trusted by some of the world's largest enterprises
+              </h2>
+              <ul class="infopage__partners__list">
+                <li>
+                  <span class="css-sprite-softserve" aria-label="softserve" />
+                </li>
+                <li><span class="css-sprite-subaru" aria-label="subaru" /></li>
+                <li>
+                  <span class="css-sprite-anextour" aria-label="anextour" />
+                </li>
+                <li><span class="css-sprite-prom" aria-label="prom" /></li>
+                <li>
+                  <span class="css-sprite-ukrposhta" aria-label="ukrposhta" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="infopage__workprocess">
+            <span class="css-sprite-workprocess" aria-label="working_process" />
+            <span
+              class="infopage__graph graph1 css-sprite-graph1"
+              aria-label="graph1"
+            ></span>
+            <span
+              class="infopage__graph graph2 css-sprite-graph2"
+              aria-label="graph2"
+            ></span>
+            <span
+              class="infopage__graph graph3 css-sprite-graph3"
+              aria-label="graph3"
+            ></span>
+          </div>
+        </div>
+      </section>
+      <section class="section slider__section">
+        <div class="slider__wrapper">
+          <div class="slider__reasons">
+            <span class="infopage__title3">6 Reasons</span>
+            <span class="infopage__title3 color">
+              to Use Plerdy Data for a Website Usability Audit
+            </span>
+          </div>
+          <div class="swiper-container">
+            <div class="swiper">
+              <div class="swiper-wrapper" id="slides-container"></div>
+            </div>
+            <div class="swiper__button__wrapper">
+              <button
+                type="button"
+                class="swiper-button swiper-button-next"
+                style="margin-right: 8px"
+              >
+                <svg class="" width="28px" height="28px">
+                  <use href="./src/images/svg_sprite.svg#icon-swipeleft"></use>
+                </svg>
+              </button>
+              <button type="button" class="swiper-button swiper-button-prev">
+                <svg class="" width="28px" height="28px">
+                  <use href="./src/images/svg_sprite.svg#icon-swiperight"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper__position"></div>
+        </div>
+        <div class="infopage__motivation">
+          <button
+            class="infopage__button infopage__button--width"
+            id="open-modal"
+            data-modal-open
+            aria-expanded="true/false"
+          >
+            Boost my website conversion
+          </button>
+          <span class="infopage__text"
+            >So, it’s high time for you to stop losing 99% of potential clients
+            due to being unaware of your website users’ behavior patterns and
+            needs.
+          </span>
+        </div>
+      </section>
+      <div class="backdrop is-hidden" data-modal>
+        <div id="modal" class="modal">
+          <span class="css-sprite-podcast_desk modal__podcastimg"></span>
+          <div class="modal__wrapper">
+            <div class="modal__content">
+              <button type="button" class="modal__closebtn" data-modal-close>
+                <svg width="22.5px" height="22.5px">
+                  <use href="./src/images/svg_sprite.svg#icon-closebtn"></use>
+                </svg>
+              </button>
+              <h3 class="modal__titlte">
+                How to do a Website Audit to Improve SEO & Conversions
+              </h3>
+              <span class="modal__subtitle"
+                >You will get an SMS with a link to the webinar</span
+              >
+              <form action="submit" class="modal__form" modal-form>
+                <label class="modal__label" for="name">Name</label>
+                <input
+                  id="name"
+                  type="text"
+                  class="modal__input"
+                  placeholder="Boris Jonson"
+                />
+                <span id="modal__name_erorr" class="error-message"
+                  >Name is required</span
+                >
+                <label class="modal__label" for="phone">Phone</label>
+                <input
+                  class="modal__input"
+                  id="phone"
+                  type="tel"
+                  placeholder="XX XXX XXXX"
+                />
+                <div class="intl-tel-input" intl-tel-input></div>
+                <span id="modal__phone_erorr" class="error-message"
+                  >Phone is required</span
+                >
+                <div class="modal__buttons__wrapper">
+                  <button
+                    type="button"
+                    class="modal__button modal__button__color"
+                  >
+                    Support
+                  </button>
+                  <button
+                    type="submit"
+                    class="modal__button"
+                    id="button_submit"
+                  >
+                    Contact sales
+                  </button>
+                </div>
+              </form>
+              <div class="checkbox">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    class="checkbox__input"
+                  />
+                  <svg class="checkbox__icon" width="16px" height="15px">
+                    <use href="./src/images/svg_sprite.svg#icon-check"></use>
+                  </svg>
+                </label>
+                <div>
+                  <span class="checkbox__span">
+                    By sending up? you agree to our</span
+                  >
+                  <a href="/" class="checkbox__link">Conditions</a>
+                  <span>and</span>
+                  <a href="/" class="checkbox__link">Privacy Policy</a>
+                </div>
+              </div>
+              <div class="checkbox_wrapper">
+                <span class="css-sprite-modalLogo"></span>
+                <span class="checkbox__text"> Powered by Plerdy </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.2/build/js/intlTelInput.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/javaScript/jquery.js"></script>
+    <script src="./src/javaScript/intltel.js"></script>
+    <script src="./src/javaScript/swiper.js"></script>
+    <script src="./src/javaScript/modal.js"></script>
+    <script src="./src/javaScript/submitForm.js"></script>
+    <script src="./src/javaScript/dropDown.js"></script>
+  </body>
+</html>

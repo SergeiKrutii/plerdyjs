@@ -1,0 +1,13 @@
+.intl-tel-input {
+  position: relative;
+}
+
+.iti--container {
+  top: 265px !important;
+  left: 32px !important;
+
+  @media screen and (min-width: 1000px) {
+    top: 375px !important;
+    left: 442px !important;
+  }
+}

@@ -1,0 +1,31 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-dropmenu" viewBox="0 0 59 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.9231" d="M2.462 3.692h54.154" ></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.9231" d="M2.462 16h54.154" ></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.9231" d="M2.462 28.308h54.154" ></path>
+</symbol>
+<symbol id="icon-closebtn" viewBox="0 0 32 32">
+<path fill="#f3f4f6" style="fill: var(--color1, #f3f4f6)" d="M31.304 16.348c0 8.644-7.008 15.652-15.652 15.652s-15.652-7.008-15.652-15.652c0-8.644 7.008-15.652 15.652-15.652s15.652 7.008 15.652 15.652z"></path>
+<path fill="#001e41" style="fill: var(--color2, #001e41)" d="M10.63 22.283l-0.913-0.913 5.022-5.022-5.022-5.022 0.913-0.913 5.022 5.022 5.022-5.022 0.913 0.913-5.022 5.022 5.022 5.022-0.913 0.913-5.022-5.022-5.022 5.022z"></path>
+</symbol>
+<symbol id="icon-check" viewBox="0 0 42 32">
+<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
+</symbol>
+<symbol id="icon-Frame-28" viewBox="0 0 49 32">
+  <path d="M0.533 18.509v9.291c0 1.683 1.406 3.049 3.142 3.049h8.478v-16.472l-11.62 4.132z" fill="blue"></path>
+  <path d="M12.637 14.378l4.15 6.047v10.425l-4.15-5.531v-10.94z" fill="blue"></path>
+  <path d="M17.273 11.701v19.148h11.626l-0.006-23.279-11.62 4.132z" fill="blue"></path>
+  <path d="M29.377 7.569l4.725 7.962v15.318l-4.723-8.19-0.003-15.090z" fill="blue"></path>
+  <path d="M34.587 4.681v26.169h10.013c1.735 0 3.141-1.365 3.141-3.049v-27.801l-13.154 4.681z" fill="blue"></path>
+</symbol>
+<symbol id="icon-swiperight" viewBox="0 0 32 32">
+<path fill="#5d78ff" style="fill: var(--color1, #5d78ff)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M16 23.619l-1-1.024 5.881-5.881h-12.5v-1.429h12.5l-5.881-5.881 1-1.024 7.619 7.619-7.619 7.619z"></path>
+</symbol>
+<symbol id="icon-swipeleft" viewBox="0 0 32 32">
+<path fill="#5d78ff" style="fill: var(--color1, #5d78ff)" d="M0 16c0-8.837 7.163-16 16-16s16 7.163 16 16c0 8.837-7.163 16-16 16s-16-7.163-16-16z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M16 8.381l1 1.024-5.881 5.881h12.5v1.429h-12.5l5.881 5.881-1 1.024-7.619-7.619 7.619-7.619z"></path>
+</symbol>
+</defs>
+</svg>

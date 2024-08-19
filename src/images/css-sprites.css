@@ -1,0 +1,189 @@
+.css-sprite-anextour {
+  background: url('css-sprite-combined.2.png') 0px -535px;
+  width: 85px;
+  height: 15px;
+  display: inline-block;
+}
+
+.css-sprite-graph1 {
+  background: url('css-sprite-combined.2.png') -85px -431px;
+  width: 144px;
+  height: 119px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+  .css-sprite-graph1 {
+    background: url('css-sprite-combined.2.png') -229px -358px;
+    width: 231px;
+    height: 192px;
+  }
+}
+
+.css-sprite-graph1_desk {
+  background: url('css-sprite-combined.2.png') -229px -358px;
+  width: 231px;
+  height: 192px;
+  display: inline-block;
+}
+
+.css-sprite-graph2 {
+  background: url('css-sprite-combined.2.png') -460px -461px;
+  width: 132px;
+  height: 89px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+  .css-sprite-graph2 {
+    background: url('css-sprite-combined.2.png') -592px -406px;
+    width: 202px;
+    height: 144px;
+  }
+}
+
+.css-sprite-graph2_desk {
+  background: url('css-sprite-combined.2.png') -592px -406px;
+  width: 202px;
+  height: 144px;
+  display: inline-block;
+}
+
+.css-sprite-graph3 {
+  background: url('css-sprite-combined.2.png') -794px -453px;
+  width: 138px;
+  height: 97px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+  .css-sprite-graph3 {
+    background: url('css-sprite-combined.2.png') -932px -393px;
+    width: 223px;
+    height: 157px;
+  }
+}
+
+.css-sprite-graph3_desk {
+  background: url('css-sprite-combined.2.png') -932px -393px;
+  width: 223px;
+  height: 157px;
+  display: inline-block;
+}
+
+.css-sprite-mainLogo {
+  background: url('css-sprite-combined.2.png') -1155px -529px;
+  width: 89px;
+  height: 21px;
+  display: inline-block;
+}
+
+.css-sprite-modalLogo {
+  background: url('css-sprite-combined.2.png') -1244px -535px;
+  width: 23px;
+  height: 15px;
+  display: inline-block;
+}
+
+.css-sprite-podcast_desk {
+  @media screen and (min-width: 1000px) {
+    background: url('css-sprite-combined.2.png') -1267px -0px;
+    width: 400px;
+    height: 550px;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+.css-sprite-prom {
+  background: url('css-sprite-combined.2.png') -1667px -531px;
+  width: 69px;
+  height: 19px;
+  display: inline-block;
+}
+
+.css-sprite-softserve {
+  background: url('css-sprite-combined.2.png') -1736px -533px;
+  width: 91px;
+  height: 17px;
+  display: inline-block;
+}
+
+.css-sprite-subaru {
+  background: url('css-sprite-combined.2.png') -1827px -534px;
+  width: 106px;
+  height: 16px;
+  display: inline-block;
+}
+
+.css-sprite-ukrposhta {
+  background: url('css-sprite-combined.2.png') -1933px -526px;
+  width: 102px;
+  height: 24px;
+  display: inline-block;
+}
+
+.css-sprite-workprocess {
+  background: url('css-sprite-combined.2.png') -2035px -276px;
+  width: 230px;
+  height: 274px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+  .css-sprite-workprocess {
+    background: url('css-sprite-combined.2.png') -2265px -108px;
+    width: 370px;
+    height: 442px;
+  }
+}
+
+.css-sprite-workprocess_desktop {
+  background: url('css-sprite-combined.2.png') -2265px -108px;
+  width: 370px;
+  height: 442px;
+  display: inline-block;
+}
+
+.css-sprite-slider1 {
+  background: url('css-sprite-combined.2.png') -2635px -440px;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+
+.css-sprite-slider6 {
+  background: url('css-sprite-combined.2.png') -2745px -440px;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+
+.css-sprite-slider5 {
+  background: url('css-sprite-combined.2.png') -2855px -440px;
+  width: 111px;
+  height: 110px;
+  display: inline-block;
+}
+
+.css-sprite-slider4 {
+  background: url('css-sprite-combined.2.png') -2966px -440px;
+  width: 109px;
+  height: 110px;
+  display: inline-block;
+}
+
+.css-sprite-slider3 {
+  background: url('css-sprite-combined.2.png') -3075px -440px;
+  width: 109px;
+  height: 110px;
+  display: inline-block;
+}
+
+.css-sprite-slider2 {
+  background: url('css-sprite-combined.2.png') -3184px -440px;
+  width: 111px;
+  height: 110px;
+  display: inline-block;
+}
