@@ -1,4 +1,4 @@
-fetch('./src/slides/slides.html')
+fetch('../../src/slides/slides.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('slides-container').innerHTML = data;
