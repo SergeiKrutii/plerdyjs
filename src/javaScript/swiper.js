@@ -1,7 +1,10 @@
-fetch('../../src/slides/slides.html')
+<link rel="stylesheet" href="./src/styles/sliders.css" />;
+
+fetch('../slides/slides.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('slides-container').innerHTML = data;
+    console.log('adata', data);
     const swiper = new Swiper('.swiper', {
       loop: true,
       autoplay: {
